@@ -8,15 +8,21 @@
     font-family: "pt_sans_regular";
 }
 
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
 
-body {
+.page1 {
+    height: 742px;
+    width: 100%;
     background-color: #fcdb00;
 }
 
 .header{
     display: flex;
-    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+
 
 
    background: #fcdb00 center/cover;
@@ -96,7 +102,7 @@ body {
 
 .main_sec #title {
     margin: 0 250px 0;
-    padding-top: 90px;
+    padding-top: 94px;
     font-family: pt_sans;
     height: 30px;
     font-size: 32px;
@@ -154,11 +160,11 @@ body {
     background-color: black;
     width: 291px;
     height: 385px;
-    margin: -450px 0px 0px 837px;
+    margin: -429px 0px 0px 837px;
 }
 
-.main_sec #tinyone{
 
+.main_sec #tinyone{
     font-family: "pt_sans";
     width: 96px;
     height: 29px;
@@ -169,10 +175,16 @@ body {
     line-height: 0.67;
     letter-spacing: normal;
     text-align: left;
-    padding: 165px 0px 0px 129px;
+    padding: 10px 0px 0px 12px;
     color: #fcdb00;
 
 }
+
+.main_sec #logo2 {
+    display: flex;
+    padding: 162px 0px 0px 72px;
+}
+
 
 .icons {
     display: flex;
