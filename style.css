@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper
+{
+    background-color: #fcdb00;
+}
+
+header {
+    padding-top: 49px;
+}
+
+.logo {
+    display: flex;
+   padding: 0;
+    justify-content: left;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+}
